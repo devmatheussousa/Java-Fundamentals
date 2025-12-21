@@ -12,3 +12,9 @@ baseada em classes e herança
 Java é uma linguagem de programação que foi projetada para ser orientada a objetos.
 Isso significa que tudo em Java é um objeto, e que objetos podem herdar propriedades e métodos de outros objetos.
 
+JDK vs JVM vs JRE
+JDK: Java Development Kit -> é um conjunto de ferramentas que é necessário para compilar e executar programas Java.
+JVM: Java Virtual Machine -> é uma máquina virtual que é necessária para executar programas Java.
+JRE: Java Runtime Environment -> é um ambiente de execução que é necessário para executar programas Java
+
+
