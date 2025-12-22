@@ -37,5 +37,10 @@ public class TesteCarro {
                                 fusca.marca, fusca.modelo, fusca.numPassageiros, fusca.capCombustivel, fusca.consumoCombustivel
 
         );
+
+        // Chamando o método exibirAutonomia
+        van.exibirAutonomia();
+        fusca.exibirAutonomia();
+        //comando git para ingnorar um arquivo
     }
 }
