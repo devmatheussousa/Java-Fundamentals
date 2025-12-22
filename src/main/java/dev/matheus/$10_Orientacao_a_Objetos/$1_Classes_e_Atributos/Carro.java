@@ -17,7 +17,13 @@ public class Carro {
     double capCombustivel; // Capacidade de combustivel do carro em litros
     double consumoCombustivel; // Consumo de combustivel do carro em km/litro
 
+    //Metodo simples sem retorno -> void
+    //Ele exibir a autonomia do carro baseado na capacidade de combustivel e no consumo de combustivel
     void exibirAutonomia(){
-        System.out.println("A autonomia do carro é: " + capCombustivel * consumoCombustivel + " km");
+        System.out.println("A autonomia do carro é: " + medirAutonomia() + " km");
+    }
+
+    double medirAutonomia(){
+        return capCombustivel * consumoCombustivel;
     }
 }
