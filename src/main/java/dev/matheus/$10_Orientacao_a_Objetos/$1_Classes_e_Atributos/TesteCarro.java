@@ -38,9 +38,16 @@ public class TesteCarro {
 
         );
 
-        // Chamando o método exibirAutonomia
-        van.exibirAutonomia();
+        // Chamando o método exibirAutonomia\
+
+        //1 - Primeira forma de obter a autonomia do carro
+        double autonomia = van.medirAutonomia();
+        System.out.println("A autonomia da van é: " + autonomia + " km");
+
+        //2 - Segunda forma de obter a autonomia do carro
         fusca.exibirAutonomia();
+
+
         //comando git para ingnorar um arquivo
     }
 }
