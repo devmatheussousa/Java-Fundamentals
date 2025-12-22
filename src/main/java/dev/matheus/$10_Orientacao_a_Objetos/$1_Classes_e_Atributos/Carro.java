@@ -26,4 +26,8 @@ public class Carro {
     double medirAutonomia(){
         return capCombustivel * consumoCombustivel;
     }
+
+    double calcularCombustivel(double km){
+        return km / consumoCombustivel;
+    }
 }

@@ -48,6 +48,12 @@ public class TesteCarro {
         fusca.exibirAutonomia();
 
 
-        //comando git para ingnorar um arquivo
+        //Calcular o combustivel necessário para percorrer 200 km
+        double km = 200.0;
+        double combustivelNecessario = van.calcularCombustivel(km);
+        System.out.printf("Para percorrer com van %.2f km, será necessário %.2f litros de combustivel%n", km, combustivelNecessario);
+
+        double combustivelNecessarioFusca = fusca.calcularCombustivel(km);
+        System.out.printf("Para percorrer com fusca %.2f km, será necessário %.2f litros de combustivel%n", km, combustivelNecessarioFusca);
     }
 }
