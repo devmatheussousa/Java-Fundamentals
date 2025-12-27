@@ -47,6 +47,12 @@ public class Carro {
         System.out.println("O consumo de combustível do carro é: " + consumoCombustivel);
     }
 
+    public double calcularCombustivel(double km){
+        double qtdCombustivel = km / consumoCombustivel;
+        System.out.printf("A quantidade de combustível necessário para percorrer %.2f km é: %.2f litros de combustível.\n", km, qtdCombustivel);
+        return qtdCombustivel;
+    }
+
     public void ligar() {
         ligado = true;
     }

@@ -5,6 +5,7 @@ public class TesteVeiculo {
         Carro ferrari = new Carro("Ferrari", "F8 Tributo", 2, 60, 12);
         ferrari.exibir();
         ferrari.exibirAutonomita();
+        ferrari.calcularCombustivel(200);
         ferrari.ligarCarro(false);
     }
 }
