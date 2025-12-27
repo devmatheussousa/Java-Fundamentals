@@ -21,6 +21,23 @@ public class Car {
         System.out.println("A classe Car foi instanciada");
     }
 
+    /**
+     * Construtor da classe Car.
+     * Inicializa os atributos marca, modelo e numPassageiros.
+     * Esse construtor já receber argumentos passados nas aspas para inicializar os atributos do objeto.
+     * Isso significa que quando um objeto Car é criado com argumentos,
+     * o construtor com argumentos é chamado automaticamente.
+     * Pode usar para inicializar os atributos com valores fornecidos.
+     * @param marca
+     * @param modelo
+     * @param numPassageiros
+     */
+    public Car(String marca, String modelo, int numPassageiros) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.numPassageiros = numPassageiros;
+    }
+
     void exibirAutonomia(){
         System.out.printf("A autonomia do %s é de %.2f km\n", modelo, capCombustivel * consumoCombustivel);
     }
