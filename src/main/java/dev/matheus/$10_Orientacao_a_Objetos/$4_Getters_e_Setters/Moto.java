@@ -141,6 +141,28 @@ public class Moto {
     public void setDesligado(boolean desligado) {
         this.desligado = desligado;
     }
+
+    /*
+     * Este método é usado para testar o método ligarMoto.
+     * Ele recebe uma string como parâmetro e com base nessa string, chama o método ligarMoto.
+     * Se a string for "ligar", chama ligarMoto(true).
+     * Se a string for "desligar", chama ligarMoto(false).
+     * Se a string for qualquer outra coisa, imprime "Opção inválida".
+     */
+
+    public void testeLigarMotor(String texto){
+        switch (texto) {
+            case "ligar":
+                ligarMoto(true);
+                break;
+            case "desligar":
+                ligarMoto(false);
+                break;
+            default:
+                System.out.println("Opção inválida");
+                break;
+        }
+    }
 }
 
 

@@ -9,5 +9,6 @@ public class TesteMoto {
         honda150.exibirAutonomita();
         honda150.calcularCombustivel(200);
         honda150.ligarMoto(false);
+        honda150.ligarMoto(true);
     }
 }
