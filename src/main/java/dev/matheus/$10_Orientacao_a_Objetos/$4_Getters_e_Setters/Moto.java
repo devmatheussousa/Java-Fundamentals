@@ -61,12 +61,12 @@ public class Moto {
         ligado = false;
     }
 
-    public void ligarCarro(boolean ligar) {
+    public void ligarMoto(boolean ligar) {
         if (ligar) {
-            System.out.println("O carro " + modelo + " está Ligando");
+            System.out.println("O Moto " + modelo + " está Ligando");
             ligar();
         } else {
-            System.out.println("O carro " + modelo + " está Desligando");
+            System.out.println("O Moto " + modelo + " está Desligando");
             desligar();
         }
     }
